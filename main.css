@@ -1,0 +1,16 @@
+#code-editor-container {
+    font-family: "Lucida Console";
+    border: 1px solid black;
+    width: 600px;
+    position: absolute;
+}
+
+#add-new-handle {
+    height: 20px;
+    background-color: black;
+}
+
+#add-new-editor {
+    font-family: "Lucida Console";
+    border: 1px solid black;
+}

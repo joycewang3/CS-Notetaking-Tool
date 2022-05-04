@@ -13,6 +13,14 @@
     rel="stylesheet">
   <!-- link for search icon -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <script src="lib/codemirror.js"></script>
+  <link rel="stylesheet" href="lib/codemirror.css">
+  <script src="mode/javascript/javascript.js"></script> 
+
+  <link rel="stylesheet" href="/main.css"></link>
+  
+
 </head>
 
 <body>
@@ -61,17 +69,24 @@
 
     <div class="notePage">
       PAGE AREA
+      
     </div>
+
+
+    <iframe id="iframe" frameborder="2px" width="600px" height="500px" 
+    src="https://replit.com/@ritza/demo-embed?lite=true"></iframe>
+    
     <div class="noteBtns">
-      <button type="button" class="codeBtn">+ CODE</button>
+      <button type="button" class="codeBtn" onclick="show()">+ CODE</button>
       <button type="button" class="handBtn">+ HAND WRITING</button>
-      <button type="button" class="textBtn">+ TEXT</button>
+      <button type="button" class="textBtn" id="add-button">+ TEXT</button>
       <button type="button" class="imgBtn">+ IMAGE</button>
       
     </div>
   </div>
 
-  
+  <script src="/main.js"></script>
+
 <script>
   var coll = document.getElementsByClassName("collapsible");
   var i;
