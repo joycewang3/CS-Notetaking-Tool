@@ -1,1 +1,1 @@
-# cis700-finalProject
+# Notetaking Tool for Computer Science Students
