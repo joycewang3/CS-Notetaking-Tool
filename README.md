@@ -8,3 +8,8 @@ EasyNotes is a web-based note-taking tool designed to help beginner Computer Sci
 
 ### Link to full project:
 https://medium.com/@joycewang821993-67612/easynotes-a-note-taking-tool-that-supports-code-editing-6ea74cd0f7ef
+
+## Technologies
+* JavaScript (Bootstrap, Paper.js, Replit)
+* HTML/CSS
+* Figma
